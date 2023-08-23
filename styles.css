@@ -1,0 +1,105 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Rammeto One';
+    background-color: #333;
+}
+
+#hero {
+    background-color: #F3F4F5;
+    color: #333;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    opacity: 0.8;
+}
+
+#projects {
+    background-color: #333;
+    padding: 5rem 0;
+    padding-bottom: 0%;
+}
+
+#projects #h2 {
+    margin: 2rem;
+    color: #F3F4F5;
+}
+
+.project {
+    background-color: #f5f5f5;
+    padding: 2rem; 
+    border-radius: 10px;
+    margin: 2rem;
+    margin-bottom: rem; /* Adjusted margin-bottom */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.project p {
+    opacity: 0.8;
+}
+
+#Articles {
+    background-color: #333;
+    padding: 1rem 0;
+    margin-top: -2rem; /* Added negative margin-top to reduce space */
+}
+
+#Articles #h2 {
+    margin: 2rem;
+    color: #F3F4F5;
+}
+
+.Article {
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+
+.Article:hover {
+    transform: translateY(-5px);
+}
+
+.Article a {
+    text-decoration: none;
+}
+.Article h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.Article p {
+    opacity: 0.8;
+}
+
+#skillissue {
+    text-decoration: none;
+}
+

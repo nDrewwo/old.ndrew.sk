@@ -1,0 +1,53 @@
+body {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tutorial {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0 50px;
+  }
+  
+  .tutorial h1 {
+    text-align: center;
+  }
+  
+  .step {
+    margin-bottom: 20px;
+  }
+  
+  .step-heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .step-paragraph {
+    font-size: 18px;
+  }
+  
+  .step-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+footer {
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif
+  }
+  
+  .footer-text {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .phone-number {
+    color: white;
+  }
