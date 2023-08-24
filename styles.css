@@ -1,19 +1,26 @@
-/* Reset default margin and padding */
+@import url('https://fonts.cdnfonts.com/css/rammetto-one');
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Rammeto One';
+    font-family: 'Rammetto One';
     background-color: #333;
 }
+
+@media (max-width: 768px) {
+    body {
+      text-align: center;
+    }
+  }
 
 #hero {
     background-color: #F3F4F5;
     color: #333;
     text-align: center;
-    padding: 10rem 0;
+    padding: 8rem 0;
 }
 
 .hero-content h1 {
@@ -28,7 +35,6 @@ body {
 
 #projects {
     background-color: #333;
-    padding: 5rem 0;
     padding-bottom: 0%;
 }
 
@@ -38,11 +44,12 @@ body {
 }
 
 .project {
+    text-decoration: none;
     background-color: #f5f5f5;
     padding: 2rem; 
     border-radius: 10px;
     margin: 2rem;
-    margin-bottom: rem; /* Adjusted margin-bottom */
+    margin-bottom: rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
@@ -60,46 +67,72 @@ body {
     opacity: 0.8;
 }
 
-#Articles {
-    background-color: #333;
-    padding: 1rem 0;
-    margin-top: -2rem; /* Added negative margin-top to reduce space */
-}
-
-#Articles #h2 {
-    margin: 2rem;
-    color: #F3F4F5;
-}
-
-.Article {
-    color: #333;
-    background-color: #f5f5f5;
-    padding: 2rem;
-    border-radius: 10px;
-    margin: 2rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+#hreflink {
+    color: black;
     text-decoration: none;
 }
 
+.showmore {
+    text-decoration: none;
+    background-color: #f5f5f5;
+    padding: 1rem; 
+    border-radius: 10px;
+    margin: 2rem;
+    margin-bottom: rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
 
-.Article:hover {
+.showmore h3 {
+    font-size: 1.5rem;
+}
+
+.showmore:hover {
     transform: translateY(-5px);
 }
 
-.Article a {
-    text-decoration: none;
+#buttons {
+    background-color: #333;
+    padding-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Add this line */
 }
-.Article h3 {
+
+.button {
+    text-decoration: none;
+    background-color: #f5f5f5;
+    padding: 1rem; 
+    border-radius: 10px;
+    margin: 1rem;
+    margin-bottom: rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    text-align: center;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+}
+
+.button h3 {
     font-size: 1.5rem;
-    margin-top: 1rem;
 }
 
-.Article p {
-    opacity: 0.8;
-}
-
-#skillissue {
+#hreflink {
+    color: black;
     text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    #buttons {
+        padding: 2rem 0; /* Add some vertical spacing */
+    }
+
+    .button {
+        width: 150; 
+    }
+}
