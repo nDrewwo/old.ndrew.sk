@@ -35,15 +35,19 @@ body {
   
   .step {
     margin-bottom: 20px;
+    margin: 10px auto;
   }
   
   .step-heading {
     font-size: 24px;
     font-weight: bold;
+    font-family: 'Rammetto One';
+    margin: 10px auto;
   }
   
   .step-paragraph {
     font-size: 18px;
+    margin: 10px auto;
   }
   
   .step-image {
@@ -52,4 +56,8 @@ body {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
+  }
+
+  .step-paragraph #gd {
+    color: #F3F4F5;
   }
