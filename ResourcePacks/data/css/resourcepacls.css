@@ -6,42 +6,26 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: 'Rammetto One';
     background-color: #333;
+    font-family: 'Rammetto One';
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
     body {
-      text-align: center;
+      text-align: center; /* Aligns text to the center on screens with a maximum width of 768px */
     }
-    #buttons {
-        flex-direction: column;
-        align-items: center; /* Center buttons horizontally */
-    }
-
-    .button {
-        width: 100%; /* Take full width on smaller screens */
-        margin: 0.5rem 0; 
-        flex-basis: 100%;/* Add margin to create spacing between buttons */
-    }
-}
-
+  }
 
 #hero {
     background-color: #F3F4F5;
     color: #333;
     text-align: center;
-    padding: 4rem 0;
+    padding: 6rem 0;
 }
 
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-}
-
-.hero-content p {
-    font-size: 1.25rem;
-    opacity: 0.8;
 }
 
 #projects {
@@ -52,6 +36,7 @@ body {
 #projects #h2 {
     margin: 2rem;
     color: #F3F4F5;
+    text-align: center;
 }
 
 .project {
@@ -83,46 +68,40 @@ body {
     text-decoration: none;
 }
 
-.showmore {
-    text-decoration: none;
-    background-color: #f5f5f5;
-    padding: 1rem; 
-    border-radius: 10px;
+.packpreview {
+    color: #F3F4F5;  
+    display: flex; /* Add display: flex to create a flex container */
+    align-items: flex-start; /* Align items at the top vertically */ 
+    margin-right: 1rem; 
+}
+
+
+#preview {
+    float: left;
+    max-width: 500px;
     margin: 2rem;
-    margin-bottom: rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    text-align: center;
 }
 
-.showmore h3 {
-    font-size: 1.5rem;
+.packpreview h3 {
+    margin-top: 1.5rem;
 }
 
-.showmore:hover {
-    transform: translateY(-5px);
-}
-
-#buttons {
-    background-color: #F3F4F5;
-    padding: 2rem 0; /* Add some vertical spacing */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Allow flex items to wrap when they can't fit in a row */
+.packpreview p {
+    margin-top: 0.5rem; /* Add margin between h3 and p */       
 }
 
 .button {
     text-decoration: none;
-    background-color: #333;
-    color: #F3F4F5;
+    background-color: #F3F4F5;
+    color: #333;
     padding: 1rem; 
     border-radius: 10px;
     margin: 0.5rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    width: 250px; 
     text-align: center;
+    width: 280px;
+    margin-top: 1.5rem;
 }
 
 .button:hover {
@@ -133,8 +112,10 @@ body {
     font-size: 1.5rem;
 }
 
-#hreflink {
-    color: black;
-    text-decoration: none;
+#buttons {
+    display: flex; /* Add display: flex to create a flex container */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    gap: 1rem; /* Add some space between the buttons */
+    margin-top: 1.5rem; /* Add margin to separate them from the text */
 }
-
