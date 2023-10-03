@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/rammetto-one');
 
 body {
-    background-color: #333;
+    background-color: #a103fc;
     color:  #fff;
     font-family: 'Rammetto One' ;
     text-align: center;
@@ -11,8 +11,8 @@ body {
 
 .button {
     text-decoration: none;
-    background-color: #f5f5f5;
-    padding: 2rem; 
+    background-color: #333;
+    padding: 0.5rem; 
     border-radius: 10px;
     margin: 2rem;
     margin-bottom: rem;
@@ -26,6 +26,7 @@ body {
 }
 
 #hreflink {
-    color: #333;
+    color: white;
     text-decoration: none;
 }
+

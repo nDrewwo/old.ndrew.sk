@@ -1,0 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/rammetto-one');
+
+body {
+    background-color: #333;
+    font-family: 'Rammetto One';
+    color: white;
+}
+
+table tr td {
+    width: 90%;
+    border-color: white;    
+    border: 1px solid;
+}
+
+a {
+    color: white;
+}
