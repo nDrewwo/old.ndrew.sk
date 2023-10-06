@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/rammetto-one');
+
+body {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rammetto One';
+}
+
+header {
+    background-color: white;
+    height: 10vw;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    height: 10vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    height: 80vw;
+    margin: 10vw 0; 
+}
+
+#left {
+    width: 20vw;
+    height: 100vw;
+    background-color: white;
+    text-align: center;
+}
+
+#right {
+    flex: 1;
+    height: 100vw;
+    background-color: #333;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    padding: 3vw;
+}
+
+h2 {
+    padding-top: 15vw;
+}
+
+#prava {
+    color: white;
+}

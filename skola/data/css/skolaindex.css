@@ -1,0 +1,43 @@
+@import url('https://fonts.cdnfonts.com/css/rammetto-one');
+
+body {
+    background-color: #333;
+    font-family: 'Rammetto One';
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #f3f4f5;
+    padding: 0.5rem; 
+    border-radius: 10px;
+    margin: 2rem;
+    margin-bottom: rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+}
+
+#hreflink {
+    color: #333;
+    text-decoration: none;
+}
+
+#hero {
+    background-color: #f3f4f5;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+}
