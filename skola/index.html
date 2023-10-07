@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrej Siekel</title>
+    <link rel="stylesheet" href="data/css/index.css">
+    <link rel="icon" href="data/assets/iconp.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/kute.js/2.0.0/kute.min.js"></script>
+</head>
+<body>
+ <img src="data/assets/haikeitop.svg" alt="">
+ <section>
+    <div class="blob-container">
+        <svg id="visual" viewBox="0 0 960 300" width="960" height="300" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(469.15523397634433 126.8710724566761)">
+            <path id="blob1"
+                d="M74.8 -68.2C97.3 -52.3 116.2 -26.2 119.8 3.7C123.5 33.5 111.9 66.9 89.4 91.9C66.9 116.9 33.5 133.5 0.6 132.9C-32.3 132.3 -64.6 114.6 -82.1 89.6C-99.6 64.6 -102.3 32.3 -95 7.3C-87.7 -17.7 -70.4 -35.4 -52.9 -51.2C-35.4 -67 -17.7 -81 4.2 -85.3C26.2 -89.5 52.3 -84 74.8 -68.2"
+                fill="#9900FF"></path>
+        </g>
+        <g transform="translate(485.770614912564 142.17056992088126)" style="visibility: hidden;">
+            <path id="blob2"
+                d="M87.7 -83.2C104.7 -70.7 103.4 -35.4 94.6 -8.7C85.9 17.9 69.8 35.8 52.8 54.8C35.8 73.8 17.9 93.9 -7.5 101.5C-33 109 -66 104 -86.5 85C-107 66 -115 33 -111.8 3.2C-108.6 -26.6 -94.3 -53.3 -73.8 -65.8C-53.3 -78.3 -26.6 -76.6 4.4 -81C35.4 -85.4 70.7 -95.7 87.7 -83.2"
+                fill="#9900FF"></path>
+        </g>
+        </svg>
+        <h1>Andrej Siekel</h1>
+    </div>
+    <div class="button-container">
+        <a href="https://ndrew.sk/" class="href"><div class="button">Main Web</div></a>
+        <a href="4.html" class="href"><div class="button">Zadanie</div></a>
+    </div>
+ </section>
+ <img src="data/assets/haikeibottom.svg" alt="">
+
+ <script>
+    const tween = KUTE.fromTo(
+        '#blob1',
+        {path: '#blob1'},
+        {path: '#blob2'},
+        {repeat: 999, duration: 3000, yoyo: true}
+    )
+
+    tween.start()
+ </script>
+</body>
+</html>
