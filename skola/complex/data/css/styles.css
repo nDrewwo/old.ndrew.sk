@@ -21,29 +21,32 @@ header {
     height: 10vh;
     width: 100vw;
     background-color: white;
-    color: #333;
+    color: #333;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header h1 {
-    padding-top: 1rem;
-}
 
 #main {
     height: 80vh;
     width: 100vw;
+    display: flex;
 }
 
 #left {
-    float: left;
     width: 20vw;
     height: 100%;
     background-color: white;
     color: #333;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 #list {
-    padding-top: 10rem;
+    flex-direction: column; 
 }
 
 #left h2 {
@@ -51,25 +54,19 @@ header h1 {
 }
 
 #right {
-    float: right;
     width: 80vw;
     height: 100%;
     background-color: #333;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#right h1 {
-    padding-top: 15rem;
+#righcontet {
+    flex-direction: column;
 }
 
-#right h2 {
-    padding-top: 2rem;
-}
-
-
-footer p {
-    padding-top: 2rem;
-}
 
 footer {
     text-align: center;
@@ -77,4 +74,7 @@ footer {
     width: 100vw;
     background-color: white;
     color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
