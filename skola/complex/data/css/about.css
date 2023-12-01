@@ -22,44 +22,46 @@ header {
     width: 100vw;
     background-color: white;
     color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header h1 {
-    padding-top: 1rem;
-}
 
 #main {
     height: 80vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #left {
-    float: left;
     width: 20vw;
     height: 100%;
     background-color: white;
     color: #333;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#list {
-    padding-top: 10rem;
-}
 
 #left h2 {
     padding-bottom: 20px;
 }
 
 #right {
-    float: right;
     width: 80vw;
     height: 100%;
     background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#right h1 {
-    padding-top: 6rem;
-}
 
 #right p {
     padding-top: 1rem;
@@ -68,14 +70,9 @@ header h1 {
 #containerabout {
     width: 50vw;
     text-align: center;
-    padding-left: 10rem;
 }
 
 
-
-footer p {
-    padding-top: 2rem;
-}
 
 footer {
     text-align: center;
@@ -83,4 +80,7 @@ footer {
     width: 100vw;
     background-color: white;
     color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
