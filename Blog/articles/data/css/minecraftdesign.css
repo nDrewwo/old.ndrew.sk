@@ -61,3 +61,7 @@ body {
   .step-paragraph #gd {
     color: #F3F4F5;
   }
+
+#content {
+  padding: 10vw;
+}

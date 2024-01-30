@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adko</title>
+    <link rel="icon" href="data/assets/icon.png">
+    <link rel="stylesheet" href="data/css/shop.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="href"><h1>Stránočka</h1></a>   
+    </header>
+    <section id="main">
+        <div id="left">
+            <div id="list">    
+                <a href="about.html" id="href"><h2>About me</h2></a>
+                <a href="portfolio.html" id="href"><h2>Portfólio</h2></a>
+                <a href="macicka.html" id="href"><h2>Mačička</h2></a>
+                <a href="kavicka.html" id="href"><h2>Kávička</h2></a>
+                <a href="shop.html" id="href"><h2>Shop</h2></a>
+            </div>
+        </div>
+        <div id="right">
+        <div id="righcontet">
+            <div id="container">
+                <div id="square"></div>
+            </div>
+            <div id="infocontainer">
+                <div id="textcontainer">
+                    <h1>Fes Produkt 3000</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni atque consequuntur dolorum iusto rerum aperiam commodi eveniet modi. Numquam reiciendis aperiam assumenda quo aliquid amet magni dolore! Iste, velit doloremque.</p>
+                    <a href="#popupContainer" style="text-decoration: none;"><h2>Buy</h2></a>
+                </div>
+                </div><div>
+            </div>
+        </div>   
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Adko. All rights reserved.</p>
+    </footer>
+
+    <div class="popup-container" id="popupContainer">
+        <div class="popup-card">
+            <a href="#" class="close-btn">×</a>
+            <h2>Milý/á zákazník/čka</h2>
+            <form>
+                <label for="name">Meno:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="surname">Priezvisko:</label>
+                <input type="text" id="surname" name="surname" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+    
+                <label for="address">Adresa:</label>
+                <input type="text" id="address" name="address" required>
+    
+                <label for="phone">Telefón:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <button type="submit">Odoslať</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
