@@ -18,6 +18,8 @@ This website is designed to provide visitors with information about me, my skill
 
 - **Notion Templates:** Explore a collection of downloadable Notion templates, making it easier for visitors to access and utilize your templates for their personal or professional use.
 
+- **Quotes** Explore a collection of the funniest quotes ever seen.
+
 
 
 
